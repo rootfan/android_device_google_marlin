@@ -218,6 +218,3 @@ ro.sys.fw.bg_apps_limit=60
 
 #Camera fullscreen doesn't show navigation bar
 Camera.no_navigation_bar=true
-
-# BPF
-ro.kernel.ebpf.supported=false
