@@ -49,8 +49,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensor packages
 PRODUCT_PACKAGES += \
-    sensors.marlin \
-    activity_recognition.marlin
+    sensors.marlin
 
 PRODUCT_COPY_FILES += \
     device/google/marlin/nfc/libnfc-nxp.marlin.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf
@@ -62,10 +61,6 @@ PRODUCT_PACKAGES += \
 # VR packages
 PRODUCT_PACKAGES += \
     vr.marlin
-
-# Fingerprint
-PRODUCT_PACKAGES += \
-    fingerprint.marlin
 
 $(call add-product-sanitizer-module-config,wpa_supplicant,never)
 $(call add-product-sanitizer-module-config,toybox_vendor,never)
