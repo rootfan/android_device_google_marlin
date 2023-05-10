@@ -60,7 +60,7 @@ char const*const LCD_FILE
         = "/sys/class/leds/lcd-backlight/brightness";
 
 char const*const PERSISTENCE_FILE
-        = "/sys/class/leds/lcd-backlight/low_persistence";
+        = "/sys/class/graphics/fb0/msm_fb_persist_mode";
 
 char const*const RED_BLINK_FILE
         = "/sys/class/leds/red/blink";
@@ -211,7 +211,6 @@ set_speaker_light_locked(struct light_device_t* dev,
         struct light_state_t const* state)
 {
     int red, green, blue;
-    int blink;
     int onMS, offMS;
     unsigned int colorRGB;
 
