@@ -227,5 +227,6 @@ TARGET_KERNEL_SOURCE := kernel/google/marlin
 WIFI_AVOID_IFACE_RESET_MAC_CHANGE := true
 
 TARGET_SYSTEM_PROP += device/google/marlin/system.prop
+TARGET_VENDOR_PROP += device/google/marlin/vendor.prop
 
 -include vendor/google/marlin/BoardConfigVendor.mk
