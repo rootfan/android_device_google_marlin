@@ -650,7 +650,8 @@ AB_OTA_PARTITIONS += vendor
 
 # Camera
 PRODUCT_PACKAGES += \
-    libmm-qcamera
+    libmm-qcamera \
+    libgui_shim
 
 # Charger
 PRODUCT_PRODUCT_PROPERTIES += \
