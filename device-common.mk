@@ -134,7 +134,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-service \
     android.hardware.bluetooth.audio@2.0-impl \
     android.hardware.contexthub@1.0-service \
-    android.hardware.gnss@1.0-service \
+    android.hardware.gnss@1.0-service.marlin \
     android.hardware.drm@1.0-service \
     android.hardware.light@2.0-service \
     android.hardware.memtrack@1.0-service \
